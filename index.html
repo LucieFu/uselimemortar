@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Home page</h1>
+
+<p>This is the home page</p>
+
+<a href="/workmanship/"><p>To the workmanship videos</p></a>
+
+
+{% for article in site.articles %}
+    <a href="{{ article.url }}">
+        <p>{{article.title}}</p>
+    </a>
+{% endfor %}
+
+
