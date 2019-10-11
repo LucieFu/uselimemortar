@@ -46,6 +46,7 @@ p {
 
 .resource-media {
     display: flex;
+    align-items: flex-start;
 }
 
 .resource-media__image {
