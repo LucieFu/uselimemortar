@@ -32,8 +32,13 @@ collections:
   articles:
     output: true
 
+autoprefixer:
+  browsers:
+  - last 2 versions
+
 plugins:
-  - jekyll-feed
+  - jekyll-feed 
+  - jekyll-autoprefixer
 
 exclude: 
   - README.md
