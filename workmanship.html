@@ -4,12 +4,10 @@ title: Workmanship
 permalink: /workmanship/
 ---
 
-Workmanship
-
 {% for workmanship_video in site.workmanship_videos %}
-    <a href="{{ workmanship_video.url }}">
-        <h3>{{ workmanship_video.title }}</h3>
-        <p>{{ workmanship_video.description }}</p>
-    </a>
+  <a href="{{ workmanship_video.url }}">
+    <h3>{{ workmanship_video.title }}</h3>
+    <p>{{ workmanship_video.description }}</p>
+  </a>
 {% endfor %}
 

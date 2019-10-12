@@ -8,19 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|IBM+Plex+Serif:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-        <a href="/">Header: Lime Mortar App</a>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/about/">About</a>
+    
+    <header class="bg-blue py-16 site-header px-16">
+        <a href="/" class="text-decoration-none"><div class="logo-placeholder">Logo</div></a>
+        <nav class="site-header__nav-items">
+          <a class="text-decoration-none" href="/">Home</a>
+          <a class="text-decoration-none" href="/about/">About</a>
         </nav>
-        <hr />
     </header>
     
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-
+    
+    {{ content }}
+    
   </body>
 </html>

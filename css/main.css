@@ -42,7 +42,9 @@ p {
 .px-16 { padding-left: 16px; padding-right: 16px; }
 .py-16 { padding-top: 16px; padding-bottom: 16px; }
 
+.bg-off-white { background-color: #F3F4F2; }
 .bg-light-grey { background-color: #E2E3DE;}
+.bg-blue { background-color: #014776; }
 
 .resource-media {
     display: flex;
@@ -63,3 +65,35 @@ p {
     margin-bottom: 4px;
     line-height: 1;
 }
+
+.logo-placeholder {
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.text-decoration-none { text-decoration: none; }
+
+.site-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.site-header__nav-items {
+    display: flex;
+    margin-bottom: -8px;
+}
+
+.site-header__nav-items a {
+    padding: 8px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.site-header__nav-items a:hover {
+    background-color: rgba(0,0,0,.25);
+}
+
