@@ -5,7 +5,7 @@
       {% for breadcrumb-link in include.breadcrumb-links %}
         <li class="breadcrumb-bar__list-item"><a href="{{ breadcrumb-link.href }}">{{ breadcrumb-link.label }}</a></li>
       {% endfor %}
-      <li class="breadcrumb-bar__list-item">{{ include.page-title }}</li>
+      <li class="breadcrumb-bar__list-item ellipsis">{{ include.page-title }}</li>
     </ul>
   </nav>
 </div>

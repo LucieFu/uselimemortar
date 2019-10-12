@@ -29,6 +29,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   workmanship_videos:
     output: true
+    order:
+      - removing.md
+      - mixing.md
+      - repointing.md
+      - finishing-tending.md
   articles:
     output: true
 

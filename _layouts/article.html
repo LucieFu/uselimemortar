@@ -2,19 +2,13 @@
 layout: default
 ---
 
-<main class="px-16">
+<main class="px-16 content-wrapper">
   {{ content }}
 </main>
 
 <footer class="bg-light-grey px-16 py-16">
     <h2>More information</h2>
     {% for resource in page.resources %}
-        <div class="resource-media py-16">
-            <img src="/images/{{ resource.image }}" class="resource-media__image" alt="Preview of {{ resource.title }} "/>
-            <div class="resource-info">
-                <h4 class="resource-media__source">{{ resource.source }}</h4>
-                <h3 class="resource-media__title">{{ resource.title }}</h3>
-            </div>
-        </div>
+        {% include resource-media.html resource=resource%}
     {% endfor %}
 </footer>
