@@ -3,8 +3,8 @@ layout: video
 title: Repointing
 description: "All about repointing"
 permalink: workmanship/repointing/
-videoId: qO7aFRO5WMw
-videoLength: "09:53"
+video-id: qO7aFRO5WMw
+video-length: "09:53"
 ---
 
 This is the page with the video about repointing.

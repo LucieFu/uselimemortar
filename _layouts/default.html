@@ -16,8 +16,11 @@
           <a class="text-decoration-none" href="/about/">About</a>
         </nav>
     </header>
-    
-    
+
+    {% unless page.title == 'Home' %}
+      {% include breadcrumb-bar.html breadcrumb-links=page.breadcrumb-links page-title=page.title %}
+    {% endunless %}
+
     {{ content }}
     
   </body>

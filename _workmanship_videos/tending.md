@@ -3,8 +3,8 @@ layout: video
 title: Tending
 description: "All about tending"
 permalink: workmanship/tending/
-videoId: qO7aFRO5WMw
-videoLength: "09:53"
+video-id: qO7aFRO5WMw
+video-length: "09:53"
 ---
 
 here's a long long long description all about the video

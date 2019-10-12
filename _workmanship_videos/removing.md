@@ -3,8 +3,8 @@ layout: video
 title: Removing
 description: "All about removing old mortar"
 permalink: workmanship/removing-mortar/
-videoId: qO7aFRO5WMw
-videoLength: "09:53"
+video-id: qO7aFRO5WMw
+video-length: "09:53"
 ---
 
 ## Removing video

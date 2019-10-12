@@ -1,0 +1,11 @@
+<div class="breadcrumb-bar bg-off-white">
+  <nav aria-label="You are here:" role="navigation">
+    <ul class="breadcrumb-bar__list">
+      <li class="breadcrumb-bar__list-item"><a href="/">Home</a></li>
+      {% for breadcrumb-link in include.breadcrumb-links %}
+        <li class="breadcrumb-bar__list-item"><a href="{{ breadcrumb-link.href }}">{{ breadcrumb-link.label }}</a></li>
+      {% endfor %}
+      <li class="breadcrumb-bar__list-item">{{ include.page-title }}</li>
+    </ul>
+  </nav>
+</div>

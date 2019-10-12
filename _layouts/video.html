@@ -2,29 +2,19 @@
 layout: default
 ---
 
-<div class="bg-off-white">
-  <nav aria-label="You are here:" role="navigation">
-    <ul class="breadcrumbs">
-      <li><a href="/workmanship/">Workmanship /</a></li>
-      <li>{{ page.title }}</li>
-    </ul>
-  </nav>
-</div>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.videoId }}?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ page.video-id }}?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h3>{{ page.title }}</h3>
-<p>{{ page.videoLength }}</p>
+<p>{{ page.video-length }}</p>
 <p>{{ page.description }}</p>
 {{ content }}
 
 
 <h2>All videos</h2>
 
-{% for workmanship_video in site.workmanship_videos %}
-    <a href="{{ workmanship_video.url }}">
-        <h3>{{ workmanship_video.title }}</h3>
-        <p>{{ workmanship_video.description }}</p>
+{% for workmanship-video in site.workmanship_videos %}
+    <a href="{{ workmanship-video.url }}">
+        <h3>{{ workmanship-video.title }}</h3>
+        <p>{{ workmanship-video.description }}</p>
     </a>
 {% endfor %}

@@ -3,8 +3,11 @@ layout: video
 title: "Mixing"
 description: "All about mixing"
 permalink: workmanship/mixing/
-videoId: qO7aFRO5WMw
-videoLength: "09:53"
+video-id: qO7aFRO5WMw
+video-length: "09:53"
+breadcrumb-links: 
+  - label: Workmanship
+    href: /workmanship/
 ---
 
 
