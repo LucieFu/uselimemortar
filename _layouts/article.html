@@ -2,13 +2,22 @@
 layout: default
 ---
 
-<main class="px-16 content-wrapper">
-  {{ content }}
-</main>
+<div class="px-16 partial-width">
+  <header class="article-header">
+    <h1 class="article-header__title">{{ page.title }}</h1>
+  </header>
+  <main class="article-body">
+    {{ content }}
+  </main>
+</div>
 
-<footer class="bg-light-grey px-16 py-16">
-    <h2>More information</h2>
-    {% for resource in page.resources %}
-        {% include resource-media.html resource=resource%}
-    {% endfor %}
-</footer>
+{% if page.resources %}
+  <div class="bg-off-white">
+    <div class="partial-width px-16 py-16">
+      <h2>More information</h2>
+      {% for resource in page.resources %}
+          {% include resource-media.html resource=resource%}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

@@ -10,6 +10,10 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: "IBM Plex Serif", Georgia, serif;
   -webkit-font-smoothing: antialiased;
@@ -28,7 +32,7 @@ li {
     margin-bottom: 8px;
 } 
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -49,7 +53,6 @@ strong {
 .bg-off-white { background-color: #F3F4F2; }
 .bg-light-grey { background-color: #E2E3DE;}
 .bg-blue { background-color: #014776; }
-
 
 
 
@@ -95,6 +98,7 @@ strong {
 .site-header__nav-items {
   display: flex;
   margin-bottom: -8px;
+  margin-right: -8px;
 }
 
 .site-header__nav-items a {
@@ -139,34 +143,27 @@ strong {
   overflow: hidden;
 }
 
-.content-wrapper {
+.partial-width {
+  max-width: 680px;
   margin: 0 auto;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .content-wrapper {
-    max-width: 576px; 
-  }
+.full-width {
+  max-width: 992px;
+  margin: 0 auto;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .content-wrapper {
-    max-width: 768px; 
-  }
+.article-header {
+  margin-bottom: 32px;
+  padding-top: 48px;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .content-wrapper {
-    max-width: 992px; 
-  }
+.article-header__title {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .content-wrapper {
-    max-width: 992px; 
-  }
+.article-body {
+  margin-bottom: 32px;
 }

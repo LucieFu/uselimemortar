@@ -8,14 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600|IBM+Plex+Serif:400,600,700&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    
-    <header class="bg-blue py-16 site-header px-16">
-        <a href="/" class="text-decoration-none"><div class="logo-placeholder">Logo</div></a>
-        <nav class="site-header__nav-items">
-          <a class="text-decoration-none" href="/">Home</a>
-          <a class="text-decoration-none" href="/about/">About</a>
-        </nav>
-    </header>
+
+    {% include site-header.html %}
 
     {% unless page.title == 'Home' %}
       {% include breadcrumb-bar.html breadcrumb-links=page.breadcrumb-links page-title=page.title %}

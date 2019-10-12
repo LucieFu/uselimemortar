@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Types of lime
+title: What is lime?
 description: "All about different types of lime"
 permalink: article/types-of-lime/
 resources:
@@ -12,13 +12,10 @@ resources:
     image: lime-mortars-in-trad-buildings.png
 ---
 
-# Types of lime
-
-
 ## Two types of lime 
 Lime is produced by burning limestones in a kiln to a temperature of 800°C to 1000°C, depending on the clay content of the limestones.
 
-Pure limestones without clay, produce non-hydraulic lime, also called air lime.
+Pure limestones without clay produce non-hydraulic lime, also called air lime.
 
 Clay-containing limestones produce hydraulic lime or water lime.
 
@@ -33,7 +30,7 @@ Clay-containing limestones produce hydraulic lime or water lime.
 
 The illustration below shows that, in general, the more hydraulic a binder is, the less permeable it is. 
 
-!!! INSERT ILLUSTRATION
+![](/images/graph-hydraulicity-permeability.png)
 
 ## Forms of lime
 

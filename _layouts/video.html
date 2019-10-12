@@ -4,18 +4,22 @@ layout: default
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ page.video-id }}?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<section class="px-16 content-wrapper">
+<section class="px-16 partial-width">
   <h3>{{ page.title }}</h3>
   <p>{{ page.video-length }}</p>
   {{ content }}
 </section>
 
-<footer class="bg-light-grey px-16 py-16">
-  <h2>More information</h2>
-  {% for resource in page.resources %}
-      {% include resource-media.html resource=resource%}
-  {% endfor %}
-</footer>
+{% if page.resources %}
+  <div class="bg-off-white">
+    <div class="partial-width px-16 py-16">
+      <h2>More information</h2>
+      {% for resource in page.resources %}
+          {% include resource-media.html resource=resource%}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
 
 <h2>All videos</h2>
 
