@@ -21,11 +21,24 @@ layout: default
   </div>
 {% endif %}
 
-<h2>All videos</h2>
-
-{% for workmanship-video in site.workmanship_videos %}
-  <a href="{{ workmanship-video.url }}">
-    <h3>{{ workmanship-video.title }}</h3>
-    <p>{{ workmanship-video.description }}</p>
-  </a>
-{% endfor %}
+<div class="partial-width px-16 py-16">
+  <h2>All videos</h2>
+  {% for workmanship-video in site.workmanship-videos %}
+    {% if page.title == workmanship-video.title %}
+      {% include resource-media__video.html
+        is-current=true
+        title=workmanship-video.title
+        sub-heading="Now playing"
+        href=workmanship-video.url
+        preview-image-url=workmanship-video.preview-image-url
+      %}
+    {% else %}
+      {% include resource-media__video.html
+        title=workmanship-video.title
+        sub-heading="Video"
+        href=workmanship-video.url
+        preview-image-url=workmanship-video.preview-image-url
+      %}
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,19 @@
+{% if include.is-current %}
+  <div class="resource-media bg-blue">
+    <div class="resource-media__video-preview" style="background-image: url({{ include.preview-image-url }})"></div>
+    <div class="resource-info">
+      <h4 class="resource-media__source text-white">{{ include.sub-heading }}</h4>
+      <h3 class="resource-media__title text-white">{{ include.title }}</h3>
+    </div>
+  </div>
+{% else %}
+  <a class="resource-media__link" href="{{ include.href }}">
+    <div class="resource-media">
+      <div class="resource-media__video-preview" style="background-image: url({{ include.preview-image-url }})"></div>
+      <div class="resource-info">
+        <h4 class="resource-media__source">{{ include.sub-heading }}</h4>
+        <h3 class="resource-media__title">{{ include.title }}</h3>
+      </div>
+    </div>
+  </a>
+{% endif %}

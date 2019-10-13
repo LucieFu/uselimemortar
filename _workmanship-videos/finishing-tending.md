@@ -5,6 +5,7 @@ description: "All about tending"
 permalink: workmanship/finishing-and-tending/
 video-id: qO7aFRO5WMw
 video-length: "09:53"
+preview-image-url: /images/mike-wye-how-to-point.jpg
 breadcrumb-links: 
   - label: Workmanship
     href: /workmanship/

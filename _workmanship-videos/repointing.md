@@ -5,6 +5,7 @@ description: "All about repointing"
 permalink: workmanship/repointing/
 video-id: qO7aFRO5WMw
 video-length: "09:53"
+preview-image-url: /images/mike-wye-how-to-point.jpg
 breadcrumb-links: 
   - label: Workmanship
     href: /workmanship/
