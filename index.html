@@ -3,17 +3,31 @@ layout: default
 title: Home
 ---
 
-<h1>Home page</h1>
+<header class="px-16 full-width article-header">
+  <h1 class="article-header__title">Home</h1>
+</header>
 
-<p>This is the home page</p>
+<div class="bg-light-grey py-32">
+  <div class="full-width">
+    <h2 class="px-16">Get Started</h2>
+    <div class="radio-selection-list">
+      <a href="/interactive-guide/" class="text-decoration-none radio-selection">
+        <h3 class="radio-selection__title">Select materials for your site</h3>
+        <p class="radio-selection__support-text">An interactive tool to help you choose the right binder and aggregate for your site.</p>
+      </a>
 
-<a href="/interactive-guide/"><p>Learn about the interactive guide</p></a>
-<a href="/workmanship/"><p>To the workmanship videos</p></a>
+      <a href="/workmanship/" class="text-decoration-none radio-selection">
+        <h3 class="radio-selection__title">How to use lime mortar</h3>
+        <p class="radio-selection__support-text">Video guides to removing, mixing, applying & finishing repointing lime mortar.</p>
+      </a>
+      
+      {% assign article = site.articles | first %}
 
-{% for article in site.articles %}
-    <a href="{{ article.url }}">
-        <p>{{article.title}}</p>
-    </a>
-{% endfor %}
-
+      <a href="{{ article.url }}" class="text-decoration-none radio-selection">
+        <h3 class="radio-selection__title">Learn about lime</h3>
+        <p class="radio-selection__support-text">A brief introduction to the two types of lime: hydraulic and non-hydraulic.</p>
+      </a>
+    </div>
+  </div>
+</div>
 

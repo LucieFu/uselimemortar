@@ -5,11 +5,13 @@ description: "All about different types of lime"
 permalink: article/types-of-lime/
 resources:
   - source: Historic Environment Scotland
-    title: Hot-mixed Lime Mortars
+    title: Hot-Mixed Lime Mortars
     image: hot-mixed-lime-mortars.jpg
+    href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationid=d49812ea-b515-4b33-a96c-a59500a5ef36
   - source: Historic Scotland
     title: Lime mortars in traditional buildings
     image: lime-mortars-in-trad-buildings.png
+    href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationId=85ced9f0-474d-4ec6-8dd6-a59100fc306f
 ---
 
 ## Two types of lime 
