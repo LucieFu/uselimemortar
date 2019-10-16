@@ -38,6 +38,6 @@ The illustration below shows that, in general, the more hydraulic a binder is, t
 
 There are four main forms of lime easily available to purchase:
 * non-hydraulic lime putty
-* non-hydraulic quicklime (calcium oxide (CaO)): mixing quicklime with water will generate heat and make a hot-mix mortar
+* non-hydraulic quicklime (calcium oxide (CaO)): mixing quicklime with water will generate heat and make a hot-mixed mortar
 * non-hydraulic lime + pozzolan to give some hydraulicity to the lime
 * natural hydraulic lime (NHL) comes as a hydrated lime to different levels of hydraulicity: 2, 3.5 and 5

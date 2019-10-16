@@ -3,7 +3,7 @@ layout: video
 title: Mixing different types of lime
 description: "All about mixing"
 permalink: workmanship/mixing/
-video-id: qO7aFRO5WMw
+video-id: 8YoDUUooZns
 video-length: "09:53"
 preview-image-url: /images/mike-wye-how-to-point.jpg
 breadcrumb-links: 

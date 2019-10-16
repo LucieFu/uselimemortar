@@ -3,7 +3,7 @@ layout: video
 title: Finishing & Tending
 description: "All about tending"
 permalink: workmanship/finishing-and-tending/
-video-id: qO7aFRO5WMw
+video-id: 8YoDUUooZns
 video-length: "09:53"
 preview-image-url: /images/mike-wye-how-to-point.jpg
 breadcrumb-links: 
@@ -14,10 +14,6 @@ resources:
     title: Repointing Brick and Stone Walls
     image: repointing-brick-and-stone-walls.jpg
     href: https://historicengland.org.uk/images-books/publications/repointing-brick-and-stone-walls/
-  - source: Youtube - Mike Wye
-    title: How to point a wall using lime mortar
-    image: mike-wye-how-to-point.jpg
-    href: https://www.youtube.com/watch?v=8YoDUUooZns
 ---
 
 Finishing and tending are essential for the success of the repointing mortar. There are many traditional finishes (recessed/brushed back, flush pointing, penny struck, etc) which can be learned in various training courses.
