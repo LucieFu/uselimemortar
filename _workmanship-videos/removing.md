@@ -1,11 +1,10 @@
 ---
 layout: video
 title: Removing weathered pointing mortar
-description: "All about removing old mortar"
 permalink: workmanship/removing-mortar/
-video-id: 8YoDUUooZns
-video-length: "09:53"
-preview-image-url: /images/mike-wye-how-to-point.jpg
+video-id: oL8KYqBTXoI
+video-length: "01:25"
+preview-image-url: /images/video-thumbnails/removing.jpg
 breadcrumb-links: 
   - label: Workmanship
     href: /workmanship/

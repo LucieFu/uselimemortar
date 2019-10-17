@@ -1,11 +1,10 @@
 ---
 layout: video
 title: Finishing & Tending
-description: "All about tending"
 permalink: workmanship/finishing-and-tending/
-video-id: 8YoDUUooZns
-video-length: "09:53"
-preview-image-url: /images/mike-wye-how-to-point.jpg
+video-id: Aw9wOENW4eU
+video-length: "01:41"
+preview-image-url: /images/video-thumbnails/finishing-tending.jpg
 breadcrumb-links: 
   - label: Workmanship
     href: /workmanship/

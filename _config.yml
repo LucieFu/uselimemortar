@@ -31,7 +31,8 @@ collections:
     output: true
     order:
       - removing.md
-      - mixing.md
+      - mixing-hot-mix.md
+      - mixing-nhl-putty.md
       - repointing.md
       - finishing-tending.md
   articles:

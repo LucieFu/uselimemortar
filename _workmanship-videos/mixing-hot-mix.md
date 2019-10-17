@@ -1,11 +1,10 @@
 ---
 layout: video
-title: Mixing different types of lime
-description: "All about mixing"
-permalink: workmanship/mixing/
-video-id: 8YoDUUooZns
-video-length: "09:53"
-preview-image-url: /images/mike-wye-how-to-point.jpg
+title: "Mixing: hot mix mortar"
+permalink: workmanship/mixing-hot-mix/
+video-id: sn39obR2Q9Y
+video-length: "03:03"
+preview-image-url: /images/video-thumbnails/mixing-hot-mix.jpg
 breadcrumb-links: 
   - label: Workmanship
     href: /workmanship/
@@ -16,8 +15,6 @@ resources:
     href: https://historicengland.org.uk/images-books/publications/repointing-brick-and-stone-walls/
 ---
 
-This guide includes best-practices for making hydraulic and non-hydraulic lime mortar mixes.
-
 ## Making a hot-mixed mortar
 Always wear a protective kit. 
 
@@ -27,13 +24,3 @@ Always wear a protective kit.
 * **01:36** Cover over with sand and start mixing. 
 * **01:55** Add water little by little.
 * **02:05** Continue mixing/beating the mortar for at least 20 minutes until you reach a stiff mortar that sticks to the trowel. 
-
-## Mixing NHL
-* **00:15** Measure the materials.
-* **00:35** Dry mix and add water.
-* **01:20** Rest the mix for at least 20 minutes so that NHL can absorb moisture.
-* **01:32** Remix and add further water.
-
-## Mixing Lime putty
-Natural pozzolan can be added in non-hydraulic lime to give a hydraulic set and increase durability.
-* **02:37** No water is needed in the mix.

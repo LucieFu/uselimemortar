@@ -1,11 +1,10 @@
 ---
 layout: video
 title: Repointing with lime mortar
-description: "All about repointing"
 permalink: workmanship/repointing/
-video-id: 8YoDUUooZns
-video-length: "09:53"
-preview-image-url: /images/mike-wye-how-to-point.jpg
+video-id: _7sKWMYQy9s
+video-length: "03:47"
+preview-image-url: /images/video-thumbnails/repointing.jpg
 breadcrumb-links: 
   - label: Workmanship
     href: /workmanship/
