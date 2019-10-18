@@ -1,6 +1,6 @@
 ---
 layout: video
-title: "Mixing: hot mix mortar"
+title: "Mixing: Making a hot-mixed mortar"
 permalink: workmanship/mixing-hot-mix/
 video-id: sn39obR2Q9Y
 video-length: "03:03"
@@ -13,6 +13,10 @@ resources:
     title: Repointing Brick and Stone Walls
     image: repointing-brick-and-stone-walls.jpg
     href: https://historicengland.org.uk/images-books/publications/repointing-brick-and-stone-walls/
+  - source: Historic Environment Scotland
+    title: Hot-Mixed Lime Mortars
+    image: hot-mixed-lime-mortars.jpg
+    href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationid=d49812ea-b515-4b33-a96c-a59500a5ef36
 ---
 
 ## Making a hot-mixed mortar
