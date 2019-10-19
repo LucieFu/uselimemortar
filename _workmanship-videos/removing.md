@@ -13,6 +13,10 @@ resources:
     title: "Inform Guide: Repointing Rubble Stonework"
     image: repointing-rubble-stonework.jpg
     href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationid=b6cb68de-3207-4786-a0d8-a595010402fa
+  - source: Historic Environment Scotland
+    title: "Inform Guide: Repointing Ashlar Masonry"
+    image: repointing-ashlar-masonry.jpg
+    href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationId=5073eef0-ee70-4398-8f86-a5950102f1b2
 ---
 
 Weathered mortar needs to be removed and replaced as the loss of cohesion increases the risk of moisture ingress in the masonry.
