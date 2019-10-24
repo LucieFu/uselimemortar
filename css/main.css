@@ -249,3 +249,17 @@ strong {
   display: flex;
   flex-wrap: wrap;
 }
+
+.responsive-video {
+  position: relative;
+  height: 1px;
+  padding-bottom: 56.25%;
+}
+
+.responsive-video iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
