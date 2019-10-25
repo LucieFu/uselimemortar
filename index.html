@@ -2,16 +2,31 @@
 layout: default
 title: Home
 ---
+{% assign article = site.articles | first %}
 
-<header class="px-16 full-width article-header">
-  <h1 class="article-header__title">Home</h1>
+<header class="px-16 partial-width article-header">
+  <h1 class="article-header__title">Practical advice for working with lime mortar</h1>
+  <p>Lime mortar is a sustainable, long-lasting and historically-authentic material. But before using it for repointing work, there are a number of things to consider.</p>
+  <ul>
+    <li><p>What’s the overall context of the building? What type of stone is it constructed from? How exposed is it to the environment?</p></li>
+    <li><p>What materials should be used? Which choice of lime and aggregate is appropriate for this building?</p></li>
+    <li><p>How should I carry out the work? How can I ensure the repointing is successful?</p></li>
+  </ul>
+  <p>This site brings together practical information for working with lime mortar to address these questions.</p>
+  <h2>Who is it for?</h2>
+  <p>This site is designed for anyone who’s working with or wants to learn more about lime mortar, including building contractors, tradesmen, homeowners, practitioners and architects.</p>
+
+  <h2>Get started</h2>
+  <p><strong>There’s <a href="{{ article.url }}">an article about the different types of lime</a></strong>. We recommend starting here. Get an introduction to the different types of lime - hydraulic and non-hydraulic - and the additives that are commonly used. </p>
+  <p><strong>Next, use <a href="/guidance-tool/">the guidance tool</a> to help you identify the right materials for your site</strong> based on the age, masonry and environment of the building you’re working with.</p>
+  <p><strong>Finally, watch <a href="/workmanship/">our workmanship videos</a> to learn best practices for working with lime.</strong> See demonstrations of removing, mixing, repointing and finishing lime mortar.</p>
 </header>
 
 <div class="bg-light-grey py-32">
   <div class="full-width">
     <h2 class="px-16">Get Started</h2>
     <div class="radio-selection-list">
-      <a href="/interactive-guide/" class="text-decoration-none radio-selection">
+      <a href="/guidance-tool/" class="text-decoration-none radio-selection">
         <h3 class="radio-selection__title">Select materials for your site</h3>
         <p class="radio-selection__support-text">An interactive tool to help you choose the right binder and aggregate for your site.</p>
       </a>
@@ -20,8 +35,7 @@ title: Home
         <h3 class="radio-selection__title">How to use lime mortar</h3>
         <p class="radio-selection__support-text">Video guides to removing, mixing, applying & finishing repointing lime mortar.</p>
       </a>
-      
-      {% assign article = site.articles | first %}
+
 
       <a href="{{ article.url }}" class="text-decoration-none radio-selection">
         <h3 class="radio-selection__title">Learn about lime</h3>
