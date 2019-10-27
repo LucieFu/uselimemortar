@@ -1,0 +1,5 @@
+<div class="image-row">
+  {% for image in include.images %}
+    {% include image-w-caption.html url=image.url description=image.description %}
+  {% endfor %}
+</div>

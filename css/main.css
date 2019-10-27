@@ -211,9 +211,36 @@ strong {
   font-size: 32px;
   font-weight: 700;
 }
-
 .article-body {
   margin-bottom: 32px;
+}
+
+.graph-image {
+  background-color: #E2E3DE;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.image-row {
+  display: flex;
+  margin-bottom: 32px;
+}
+.image-row__image {
+  margin-right: 8px;
+}
+.image-row__image:last-child {
+  margin-right: 0;
+}
+.image-row__image-caption {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: rgba(0,0,0,0.65);
+  font-size: 14px;
+}
+.graph-image > img { flex-shrink: 0; }
+.graph-image__image-caption {
+  flex-basis: 280px;
+  padding: 12px;
 }
 
 

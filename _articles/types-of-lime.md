@@ -12,29 +12,47 @@ resources:
     title: Lime mortars in traditional buildings
     image: lime-mortars-in-trad-buildings.png
     href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationId=85ced9f0-474d-4ec6-8dd6-a59100fc306f
+
+forms-of-lime:
+  - url: lime-putty.jpg
+    description: Lime putty
+  - url: hydrated-nhl.jpg
+    description: Hydrated NHL
+  - url: quicklime.jpg
+    description: Kibbled quicklime
 ---
 
 ## Two types of lime 
 Lime is produced by burning limestones in a kiln to a temperature of 800°C to 1000°C, depending on the clay content of the limestones.
 
-Pure limestones without clay produce non-hydraulic lime, also called air lime.
+Pure limestones without clay, produce non-hydraulic lime, also called air lime.
 
-Clay-containing limestones produce hydraulic lime or water lime.
+Limestones with clay produce hydraulic lime or water lime.
 
 ### Non-hydraulic lime / Air lime 
 * Air lime sets and hardens using carbon dioxide present in the air (a process called carbonation).
-* Air lime gains less strength over time and remains highly permeable.
+* Air lime gains less strength over time than hydraulic lime and remains highly permeable.
 * Additives, such as ceramic dust or fly ash, can be added to air lime to give it hydraulicity and strength. They are called pozzolan.
 
 ### Hydraulic lime / Water lime
-* Hydraulic lime also needs moisture in the air to set and therefore can cure under humid environmental conditions - this is what we called the hydraulicity.
-* Hydraulic lime gains strength over time which usually decreases its permeability. Some hydraulic lime can become stronger than a weak masonry.
+* Hydraulic lime needs moisture of the air in addition to carbonation to set (a process  called hydration). 
+* Hydraulic lime can cure under humid environmental conditions - this is what we called the hydraulicity.
+* Hydraulic lime gains strength over time which usually decreases its permeability. As a result, some hydraulic lime can become stronger than masonry with weak materials such as bricks.
 
-The illustration below shows that, in general, the more hydraulic a binder is, the less permeable it is. 
+### Additives
+* Additives, such as ceramic dust or fly ash, can be added to air lime to give a hydraulic set. Most of them  are called pozzolan.
+* There are organic and inorganic pozzolan as well as natural and artificial ones. 
 
-![](/images/graph-hydraulicity-permeability.png)
+
+
+{% include graph-image.html 
+  url="graph-hydraulicity-permeability.png" 
+  description="This graph shows that the more hydraulic a binder is the less permeable it is."
+%}
 
 ## Forms of lime
+
+{% include image-row.html images=page.forms-of-lime %}
 
 There are four main forms of lime easily available to purchase:
 * non-hydraulic lime putty
