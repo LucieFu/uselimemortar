@@ -43,8 +43,6 @@ Limestones with clay produce hydraulic lime or water lime.
 * Additives, such as ceramic dust or fly ash, can be added to air lime to give a hydraulic set. Most of them  are called pozzolan.
 * There are organic and inorganic pozzolan as well as natural and artificial ones. 
 
-
-
 {% include graph-image.html 
   url="graph-hydraulicity-permeability.png" 
   description="This graph shows that the more hydraulic a binder is the less permeable it is."

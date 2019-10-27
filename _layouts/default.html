@@ -8,14 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600|IBM+Plex+Serif:400,600,700&display=swap" rel="stylesheet"> 
   </head>
   <body>
+    <div class="full-width shadow-md bg-white">
+      {% include site-header.html %}
 
-    {% include site-header.html %}
+      {% unless page.title == 'Home' %}
+        {% include breadcrumb-bar.html breadcrumb-links=page.breadcrumb-links page-title=page.title %}
+      {% endunless %}
 
-    {% unless page.title == 'Home' %}
-      {% include breadcrumb-bar.html breadcrumb-links=page.breadcrumb-links page-title=page.title %}
-    {% endunless %}
+      {{ content }}
+    </div>
 
-    {{ content }}
+    {% include site-footer.html %}
     
   </body>
 </html>
