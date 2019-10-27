@@ -2,17 +2,58 @@
 layout: default
 title: Workmanship
 permalink: /workmanship/
+courses:
+  - source: The Building Limes Forum
+    title: Courses on Lime
+    image: building-limes-forum.png
+    href: https://www.buildinglimesforum.org.uk/about-lime/courses-on-lime/
+  - source: Scottish Lime Centre Trust
+    title: Courses for Building Professionals, Site Managers & Students of the Built Environment
+    image: scottish-lime-centre-trust.png
+    href: https://www.scotlime.org/en/courses/
+  - source: West Dean College
+    title: Professional Development Diploma in Historic Building Conservation and Repair
+    image: west-dean-college.png
+    href: https://www.westdean.org.uk/study/degrees-and-diplomas/courses/professional-development-diploma-in-historic-building-conservation-and-repair
+  - source: Society for the Protection of Ancient Buildings
+    title: Courses
+    image: spab.png
+    href: https://www.spab.org.uk/whats-on/courses
+
+
 ---
 
-<div class="full-width px-16 py-16">
-  <h2>How to repoint with lime mortar</h2>
-  <p>Four short videos demonstrating how to mix materials and repoint with lime mortar.</p>
-  {% for workmanship-video in site.workmanship-videos %}
-    {% include resource-media__video.html
-      title=workmanship-video.title
-      sub-heading="Video"
-      href=workmanship-video.url
-      preview-image-url=workmanship-video.preview-image-url
-    %}
-  {% endfor %}
+<div class="full-width">
+  <section class="content-wrapper">
+    <div class="three-col content-block">
+      <h2 class="h2">How to repoint with lime mortar</h2>
+      <p>Five short videos demonstrating how to mix materials and repoint with lime mortar.</p>
+    </div>
+    <div class="two-of-three-col content-block">
+      {% for workmanship-video in site.workmanship-videos %}
+        {% include resource-media__video.html
+          title=workmanship-video.title
+          sub-heading="Video"
+          href=workmanship-video.url
+          preview-image-url=workmanship-video.preview-image-url
+        %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<div class="full-width">
+  <section class="content-wrapper">
+    <div class="three-col content-block">
+      <h2 class="h2">Training courses</h2>
+      <p>Before undertaking any repointing work, it is highly recommended that you attend a training course. There are many courses available.</p>
+    </div>
+    <div class="two-of-three-col content-block">
+      {% for course in page.courses %}
+        {% include resource-media--stack.html
+          resource=course
+        %}
+      {% endfor %}
+    </div>
+  </section>
 </div>

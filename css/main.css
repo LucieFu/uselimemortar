@@ -56,6 +56,7 @@ strong {
 }
 
 .px-16 { padding-left: 16px; padding-right: 16px; }
+.px-32 { padding-left: 32px; padding-right: 32px; }
 .py-16 { padding-top: 16px; padding-bottom: 16px; }
 .py-32 { padding-top: 32px; padding-bottom: 32px; }
 
@@ -65,6 +66,13 @@ strong {
 
 .text-white { color: white; }
 
+.resource-media--stack {
+  padding: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 16px;
+}
+
 .resource-media {
     display: flex;
     align-items: flex-start;
@@ -73,7 +81,8 @@ strong {
     margin-right: -8px;
     margin-bottom: 16px;
 }
-.resource-media__link .resource-media:hover { background-color: rgba(0,0,0,0.25)}
+.resource-media__link .resource-media:hover,
+.resource-media__link .resource-media--stack:hover { background-color: rgba(0,0,0,0.25)}
 .resource-media__link {
   text-decoration: none;
   color: rgba(0,0,0,0.9);
@@ -91,6 +100,12 @@ strong {
   flex-shrink: 0;
   margin-right: 16px;
 }
+.resource-media__image--stack {
+  margin-bottom: 16px;
+  max-height: 60px;
+  max-width: 240px;
+}
+
 .resource-media__video-preview::before {
   content: '';
   display: block;
@@ -114,15 +129,6 @@ strong {
 }
 
 
-
-
-.logo-placeholder {
-  height: 32px;
-  display: flex;
-  align-items: flex-end;
-  color: white;
-  font-family: "IBM Plex Sans", sans-serif;
-}
 .text-decoration-none { text-decoration: none; }
 
 .site-header {
@@ -132,7 +138,7 @@ strong {
 }
 
 .site-logo {
-  margin-left: -16px;
+  margin-left: -45px;
   margin-bottom: -3px;
   display: flex;
   align-items: flex-end;  
@@ -161,7 +167,7 @@ strong {
   list-style: none;
   display: flex;
   font-family: "IBM Plex Sans", sans-serif;
-  padding: 8px 16px; 
+  padding: 8px 32px; 
   font-size: 14px;
 }
 
@@ -381,6 +387,10 @@ strong {
   }
   .three-col {
     width: calc(100%/3);
+    margin-bottom: 0;
+  }
+  .two-of-three-col {
+    width: calc(100%/3 *2);
     margin-bottom: 0;
   }
 }
