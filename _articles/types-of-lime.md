@@ -32,7 +32,6 @@ Limestones with clay produce hydraulic lime or water lime.
 ### Non-hydraulic lime / Air lime 
 * Air lime sets and hardens using carbon dioxide present in the air (a process called carbonation).
 * Air lime gains less strength over time than hydraulic lime and remains highly permeable.
-* Additives, such as ceramic dust or fly ash, can be added to air lime to give it hydraulicity and strength. They are called pozzolan.
 
 ### Hydraulic lime / Water lime
 * Hydraulic lime needs moisture of the air in addition to carbonation to set (a process  called hydration). 
