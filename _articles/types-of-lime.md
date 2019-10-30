@@ -18,7 +18,7 @@ forms-of-lime:
     description: Lime putty
   - url: hydrated-nhl.jpg
     description: Hydrated NHL
-  - url: quicklime.jpg
+  - url: kibbled-quicklime.jpg
     description: Kibbled quicklime
 ---
 

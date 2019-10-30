@@ -142,7 +142,6 @@ strong {
   background-position: center;
 }
 
-
 .text-decoration-none { text-decoration: none; }
 
 .site-header {
@@ -221,6 +220,8 @@ strong {
 }
 .image-row__image {
   margin-right: 8px;
+  flex-shrink: none;
+  flex-grow: 1;
 }
 .image-row__image:last-child {
   margin-right: 0;
@@ -249,46 +250,7 @@ strong {
   font-weight: 400;
 }
 
-.radio-selection {
-  display: block;
-  flex-basis: 300px;
-  flex-grow: 1;
-  position: relative;
-  background: white;
-  padding: 16px;
-  margin-bottom: 16px;
-  margin-right: 16px;
-}
-.radio-selection::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 16px;
-  right: 16px;
-  background-image: url('/images/icons/chevron-right.svg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.radio-selection__title {
-  margin-bottom: 4px;
-  padding-right: 40px;
-  font-weight: 400;
-  color: rgba(0,0,0,0.9);
-  font-family: "IBM Plex Serif", Georgia, serif;
-}
-.radio-selection__support-text {
-  color: rgba(0,0,0,.65);
-  padding-right: 40px;
-  margin-bottom: 0;
-}
 
-.radio-selection-list {
-  padding-left: 16px;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .responsive-video {
   position: relative;
@@ -356,7 +318,7 @@ strong {
 }
 
 .link-tile--lime {
-  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,.85)), url('/images/lime-kiln.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,.85)), url('/images/material-buckets.jpg');
 }
 .link-tile--workmanship {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,.85)), url('/images/workmanship.jpg');
