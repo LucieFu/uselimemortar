@@ -1,6 +1,22 @@
 ---
 layout: default
 title: Home
+section-links:
+  - title: Learn about lime
+    sub-title: Article
+    description: An introduction to the different types of lime - hydraulic and non-hydraulic - and the additives that are commonly used.
+    href:
+    image:
+  - title: Choose your materials
+    sub-title: Guidance tool
+    description: An interactive guide to help you identify the right materials for your site based on the age, masonry and environment of the building you’re working with.
+    href:
+    image:
+  - title: Learn to repoint with lime mortar
+    sub-title: Video series
+    description: A series of videos on workmanship, demonstrating best-practice for removing, mixing, repointing and finishing lime mortar.
+    href:
+    image:
 ---
 {% assign article = site.articles | first %}
 
@@ -23,6 +39,16 @@ title: Home
   </section>
 </div>
 
+<div class="full-width">
+  <section class="content-wrapper">
+    {% for link in page.section-links %}
+      <img src="" alt="" />
+      <h3>{{ link.sub-title}}</h3>
+      <h1>{{ link.title }}</h1>
+      <p>{{ link.description }}</p>
+    {% endfor %}
+  </section>  
+</div>
 
 <div class="full-width">
   <section class="content-wrapper">
