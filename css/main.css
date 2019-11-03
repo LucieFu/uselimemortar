@@ -385,14 +385,12 @@ strong {
   .section-link {
     display: flex;
     text-align: left;
+    align-items: flex-start;
   }
   .section-link__image {
     margin-right: 32px;
   }
 }
-
-
-
 
 
 .link-title__title {
