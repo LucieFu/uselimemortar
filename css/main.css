@@ -60,6 +60,9 @@ p:last-of-type {
   font-size: 20px;
   margin-bottom: 24px;
 }
+.p-small {
+  font-size: 14px;
+}
 
 strong {
   font-weight: 600;
@@ -72,6 +75,7 @@ strong {
 
 .bg-off-white { background-color: #F3F4F2; }
 .bg-light-grey { background-color: #E2E3DE;}
+.bg-mid-grey { background-color: #7e7e7e; }
 .bg-blue { background-color: #014776; }
 .bg-white { background-color: white; }
 .shadow-md {
@@ -119,7 +123,6 @@ strong {
   max-height: 60px;
   max-width: 240px;
 }
-
 .resource-media__video-preview::before {
   content: '';
   display: block;
@@ -327,13 +330,70 @@ strong {
   background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,.85)), url('/images/materials.jpg');
 }
 
-.link-tile__label {
+.section-links {
+  padding: 64px 48px;
+  background-color: rgba(63,47,21,.05)
+}
+.section-link {
+  padding: 16px;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-bottom: 48px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+
+.section-link__label {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 14px;
-  color: white;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  font-size: 20px;
+  color: rgba(0,0,0,.65);
   font-weight: 400;
   line-height: 1; 
 }
+.section-link__title {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  line-height: 1;
+  font-size: 24px;
+  color: rgba(0,0,0,.9);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+}
+.section-link__description {
+  color: rgba(0,0,0,0.9);
+}
+.section-link__image {
+  width: 300px;
+  flex-shrink: 0;
+}
+.section-link__text-block {
+  padding-top: 32px;
+}
+.section-link__link-text {
+  color: #014776;
+}
+.section-link:hover { background-color: rgba(0,0,0,0.25) }
+.section-link:hover .section-link__link-text { text-decoration: underline; }
+
+@media (min-width: 768px) {
+  .section-link {
+    display: flex;
+    text-align: left;
+  }
+  .section-link__image {
+    margin-right: 32px;
+  }
+}
+
+
+
+
 
 .link-title__title {
   margin: 0;
