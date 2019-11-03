@@ -1,5 +1,6 @@
 ---
 layout: video
+meta-title: "Finishing & Tending | Video | uselimemortar.com"
 title: Finishing & Tending
 permalink: workmanship/finishing-and-tending/
 video-id: Aw9wOENW4eU

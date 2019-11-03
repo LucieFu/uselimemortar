@@ -1,5 +1,6 @@
 ---
 layout: video
+meta-title: "Removing weathered pointing mortar | Video | uselimemortar.com"
 title: Removing weathered pointing mortar
 permalink: workmanship/removing-mortar/
 video-id: oL8KYqBTXoI

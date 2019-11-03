@@ -1,5 +1,6 @@
 ---
 layout: video
+meta-title: "Mixing: Making a hot-mixed mortar | Video | uselimemortar.com"
 title: "Mixing: Making a hot-mixed mortar"
 permalink: workmanship/mixing-hot-mix/
 video-id: sn39obR2Q9Y

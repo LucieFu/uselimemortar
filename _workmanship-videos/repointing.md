@@ -1,5 +1,6 @@
 ---
 layout: video
+meta-title: "Repointing with lime mortar | Video | uselimemortar.com"
 title: Repointing with lime mortar
 permalink: workmanship/repointing/
 video-id: _7sKWMYQy9s

@@ -1,5 +1,6 @@
 ---
 layout: article
+meta-title: What is Lime? | Hydraulic, non-hydraulic & additives | uselimemortar.com
 title: What is lime?
 description: "All about different types of lime"
 permalink: article/types-of-lime/

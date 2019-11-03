@@ -1,6 +1,7 @@
 ---
 layout: video
-title: "Mixing: Using NHL and lime putty "
+meta-title: "Mixing: Using NHL and lime putty | Video | uselimemortar.com"
+title: "Mixing: Using NHL and lime putty"
 permalink: workmanship/mixing-nhl-putty/
 video-id: e8qQjjtu6NQ
 video-length: "03:05"
