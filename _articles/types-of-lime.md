@@ -57,4 +57,4 @@ There are four main forms of lime easily available to purchase:
 * non-hydraulic lime + pozzolan to give some hydraulicity to the lime
 * natural hydraulic lime (NHL) comes as a hydrated lime to different levels of hydraulicity: 2, 3.5 and 5
 
-Lime is not more expensive than alternatives and minimises the work to do on the masonry in the future.
+Lime is not more expensive than alternatives and minimises the work to do on the masonry in the future as it contributes to its conservation.
