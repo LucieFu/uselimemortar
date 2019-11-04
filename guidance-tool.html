@@ -3,6 +3,11 @@ layout: default
 meta-title: Guidance tool | Selecting lime mortar, based on exposure, date and masonry | uselimemortar.com
 title: Guidance tool for selecting lime mortar
 permalink: /guidance-tool/
+next-step:
+  source: Next step
+  title: Learn to work with lime in our workmanship video series
+  image: workmanship.jpg
+  href: /workmanship/
 ---
 
 <div class="full-width px-16">
@@ -18,3 +23,11 @@ permalink: /guidance-tool/
     </div>
   </section>
 </div>
+
+{% if page.next-step %}
+  <div class="bg-light-grey">
+    <div class="partial-width px-16 py-16">
+      {% include resource-media.html resource=page.next-step %}
+    </div>
+  </div>
+{% endif %}

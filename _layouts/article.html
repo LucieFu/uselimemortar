@@ -21,3 +21,9 @@ layout: default
     </div>
   </div>
 {% endif %}
+
+{% if page.next-step %}
+  <div class="partial-width px-16 py-16">
+    {% include resource-media.html resource=page.next-step %}
+  </div>
+{% endif %}

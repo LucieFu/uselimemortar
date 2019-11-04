@@ -20,6 +20,11 @@ forms-of-lime:
     description: Hydrated NHL
   - url: kibbled-quicklime.jpg
     description: Kibbled quicklime
+next-step:
+  source: Next step
+  title: Select materials using the guidance tool
+  image: type-of-masonry.jpg
+  href: /guidance-tool/
 ---
 
 ## Two types of lime 
