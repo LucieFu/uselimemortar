@@ -2,6 +2,8 @@
 layout: default
 meta-title: Videos | How to repoint with lime mortar | uselimemortar.com
 title: Workmanship
+header-image: /images/workmanship.jpg
+header-image-description: Preview of video demonstration of working with lime mortar
 permalink: /workmanship/
 courses:
   - source: The Building Limes Forum
@@ -22,6 +24,13 @@ courses:
     href: https://www.spab.org.uk/whats-on/courses
 
 ---
+
+{% include page-header.html
+  content-type="Video series"
+  title=page.title
+  header-image=page.header-image 
+  header-image-description=page.header-image-description
+%}
 
 <div class="full-width">
   <section class="content-wrapper">

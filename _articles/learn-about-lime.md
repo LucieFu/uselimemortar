@@ -1,9 +1,10 @@
 ---
 layout: article
-meta-title: What is Lime? | Hydraulic, non-hydraulic & additives | uselimemortar.com
-title: What is lime?
-description: "All about different types of lime"
-permalink: article/types-of-lime/
+meta-title: Learn about lime | Hydraulic, non-hydraulic & additives | uselimemortar.com
+title: Learn about lime
+header-image: /images/material-buckets.jpg
+header-image-description: Different types of lime
+permalink: article/learn-about-lime/
 resources:
   - source: Historic Environment Scotland
     title: Hot-Mixed Lime Mortars
@@ -20,11 +21,7 @@ forms-of-lime:
     description: Hydrated NHL
   - url: kibbled-quicklime.jpg
     description: Kibbled quicklime
-next-step:
-  source: Next step
-  title: Select materials using the guidance tool
-  image: type-of-masonry.jpg
-  href: /guidance-tool/
+
 ---
 
 ## Two types of lime 

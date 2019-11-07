@@ -2,13 +2,17 @@
 layout: default
 ---
 
+{% include page-header.html
+  content-type="Article"
+  title=page.title
+  header-image=page.header-image 
+  header-image-description=page.header-image-description
+%}
+
 <div class="px-16 partial-width">
-  <header class="article-header">
-    <h1 class="article-header__title">{{ page.title }}</h1>
-  </header>
-  <main class="article-body">
+  <article class="article-body">
     {{ content }}
-  </main>
+  </article>
 </div>
 
 {% if page.resources %}
