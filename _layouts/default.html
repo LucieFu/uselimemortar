@@ -11,6 +11,7 @@
   <body>
     <div class="full-width shadow-md bg-white">
       {% include site-header.html %}
+      {% include navigation-bar.html %}
 
       {% unless page.title == 'Home' %}
         {% include breadcrumb-bar.html breadcrumb-links=page.breadcrumb-links page-title=page.title %}
