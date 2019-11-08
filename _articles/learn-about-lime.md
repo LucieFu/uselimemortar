@@ -21,6 +21,9 @@ forms-of-lime:
     description: Hydrated NHL
   - url: kibbled-quicklime.jpg
     description: Kibbled quicklime
+wrong-mortar:
+  - url: masonry-damage-closeup.jpg
+  - url: crumbling-wall.jpg
 
 ---
 
@@ -29,7 +32,7 @@ Lime is produced by burning limestones in a kiln to a temperature of 800°C to 1
 
 Pure limestones without clay, produce non-hydraulic lime, also called air lime.
 
-Limestones with clay produce hydraulic lime or water lime.
+Limestones with clay produce natural hydraulic lime or water lime.
 
 ### Non-hydraulic lime / Air lime 
 * Air lime sets and hardens using carbon dioxide present in the air (a process called carbonation).
@@ -40,23 +43,28 @@ Limestones with clay produce hydraulic lime or water lime.
 * Hydraulic lime can cure under humid environmental conditions - this is what we called the hydraulicity.
 * Hydraulic lime gains strength over time which usually decreases its permeability. As a result, some hydraulic lime can become stronger than masonry with weak materials such as bricks.
 
-### Additives
-* Additives, such as ceramic dust or fly ash, can be added to air lime to give a hydraulic set. Most of them  are called pozzolan.
-* There are organic and inorganic pozzolan as well as natural and artificial ones. 
-
 {% include graph-image.html 
   url="graph-hydraulicity-permeability.png" 
   description="This graph shows that the more hydraulic a binder is the less permeable it is."
 %}
 
+### Additives
+* Additives, such as ceramic dust or fly ash, can be added to air lime to give a hydraulic set. Most of them  are called pozzolan.
+* There are organic and inorganic pozzolan and additives as well as natural and artificial ones. 
+
 ## Forms of lime
 
 {% include image-row.html images=page.forms-of-lime %}
 
-There are four main forms of lime easily available to purchase:
-* non-hydraulic lime putty
-* non-hydraulic quicklime (calcium oxide (CaO)): mixing quicklime with water will generate heat and make a hot-mixed mortar
-* non-hydraulic lime + pozzolan to give some hydraulicity to the lime
-* natural hydraulic lime (NHL) comes as a hydrated lime to different levels of hydraulicity: 2, 3.5 and 5
+* non-hydraulic lime putty.
+* non-hydraulic quicklime (calcium oxide (CaO)): mixing quicklime with water (a process called slaking) will generate heat and make a hot-mixed mortar. Quicklime usually comes in kibbles or in powder.
+* natural hydraulic lime (NHL) comes as a hydrated lime to different levels of hydraulicity: 2, 3.5 and 5. Hydrated means that it has been slacked with only the amount of water to turn quicklime into a powder.
+* hydraulic lime (HL) is a binder consisting of lime and other materials such as cement and that has a high level of hydraulicity. 
 
-Lime is not more expensive than alternatives and minimises the work to do on the masonry in the future as it contributes to its conservation.
+## Why use lime?
+
+{% include image-row.html images=page.wrong-mortar row-caption="Examples of deterioration patterns of stones when cement is used" %}
+
+Hard and low-porous mortars such as cement mortar trap moisture inside the wall as they are less permeable than the surrounding stones. Evaporation happens then through the masonry (stones or bricks) instead of through mortar joints. When soluble salts are brought to the surface of the masonry it results in salt weathering and loss of substrate of the historical and valuable masonry units.
+
+Lime is a traditional, sustainable, historically-authentic and breathable material that contributes to the long-term conservation of masonry. It is not more expensive than alternatives and minimises the work to do on the masonry in the future. 

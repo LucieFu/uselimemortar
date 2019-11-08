@@ -251,6 +251,8 @@ a { color: #014776; }
 }
 .image-row {
   display: flex;
+}
+.image-row__wrapper {
   margin-bottom: 32px;
 }
 .image-row__image {

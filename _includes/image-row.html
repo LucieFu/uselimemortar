@@ -1,5 +1,8 @@
-<div class="image-row">
-  {% for image in include.images %}
-    {% include image-w-caption.html url=image.url description=image.description %}
-  {% endfor %}
+<div class="image-row__wrapper">
+  <div class="image-row">
+    {% for image in include.images %}
+      {% include image-w-caption.html url=image.url description=image.description %}
+    {% endfor %}
+  </div>
+  {% if include.row-caption %}<figcaption class="image-row__image-caption">{{ include.row-caption }}</figcaption>{% endif %}
 </div>
