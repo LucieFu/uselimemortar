@@ -48,7 +48,7 @@ Limestones with clay produce natural hydraulic lime or water lime.
   description="This graph shows that the more hydraulic a binder is the less permeable it is."
 %}
 
-### Additives
+## Additives
 * Additives, such as ceramic dust or fly ash, can be added to air lime to give a hydraulic set. Most of them  are called pozzolan.
 * There are organic and inorganic pozzolan and additives as well as natural and artificial ones. 
 
@@ -65,6 +65,6 @@ Limestones with clay produce natural hydraulic lime or water lime.
 
 {% include image-row.html images=page.wrong-mortar row-caption="Examples of deterioration patterns of stones when cement is used" %}
 
-Hard and low-porous mortars such as cement mortar trap moisture inside the wall as they are less permeable than the surrounding stones. Evaporation happens then through the masonry (stones or bricks) instead of through mortar joints. When soluble salts are brought to the surface of the masonry it results in salt weathering and loss of substrate of the historical and valuable masonry units.
+Hard and low-porous mortars such as cement trap moisture inside the wall as they are less permeable than the surrounding stones. Evaporation happens then through the masonry (stones or bricks) instead of through mortar joints. When soluble salts are brought to the surface of the masonry it results in salt weathering and loss of substrate of the historical and valuable masonry units.
 
 Lime is a traditional, sustainable, historically-authentic and breathable material that contributes to the long-term conservation of masonry. It is not more expensive than alternatives and minimises the work to do on the masonry in the future. 
