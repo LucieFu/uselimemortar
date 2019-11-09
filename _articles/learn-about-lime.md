@@ -14,6 +14,11 @@ resources:
     title: Lime mortars in traditional buildings
     image: lime-mortars-in-trad-buildings.png
     href: https://www.historicenvironment.scot/archives-and-research/publications/publication/?publicationId=85ced9f0-474d-4ec6-8dd6-a59100fc306f
+next-step:
+  source: Next step
+  title: Select materials using the guidance tool
+  image: type-of-masonry.jpg
+  href: /guidance-tool/
 forms-of-lime:
   - url: lime-putty.jpg
     description: Lime putty
