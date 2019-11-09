@@ -1,7 +1,1 @@
-README.md
-
-This is the documentation for this lime mortar app.
-
-* How to run locally
-* How things are organised
-* Contributing guidelines
+This website is built using [Jekyll](https://jekyllrb.com/). View the live site at https://uselimemortar.com
